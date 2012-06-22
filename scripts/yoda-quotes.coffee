@@ -15,7 +15,7 @@ quotes = [
   "Much to learn you still have...my old padawan... This is just the beginning!",
   "Twisted by the Dark Side young Skywalker has become.",
   "The boy you trained, gone he is, consumed by Darth Vader.",
-  "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealo$
+  "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them do not. Miss them do not. Attachment leads to jealously. The shadow of greed, that is",
   "The fear of loss is a path to the Dark Side.",
   "If into the security recordings you go, only pain will you find.",
   "Not if anything to say about it I have.",
