@@ -22,8 +22,8 @@ module.exports = (robot) ->
     msg.send mapUrl
     msg.send url
 
-  robot.respond /(?:(satellite|terrain|hybrid)[- ])?where did all the hipsters go/i ->
-    mapType  = msg.match[1] or "roadmap"
+  robot.respond /(?:(satellite|terrain|hybrid)[- ])?where did all the hipsters go/i, (msg) ->
+    mapType  = "roadmap"
     location = "San Francisco"
     mapUrl   = "http://maps.google.com/maps/api/staticmap?markers=" +
                 escape(location) +
