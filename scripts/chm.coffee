@@ -6,7 +6,7 @@ Select     = require("soupselect").select
 HtmlParser = require "htmlparser"
 
 module.exports = (robot) ->
-  robot.respond /(what happened today in computer history|today in computer history|tdih|chm)$/i, (msg) ->
+  robot.respond /(today in computer history|tdih|chm)$/i, (msg) ->
     msg.http("http://www.computerhistory.org/tdih/")
       .get() (err, res, body) ->
         handler = new HtmlParser.DefaultHandler()
