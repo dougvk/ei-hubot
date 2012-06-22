@@ -1,1 +1,1 @@
-app: bin/hubot -a campfire -a irc -n Sarge
+app: bin/hubot -a campfire -n Sarge
