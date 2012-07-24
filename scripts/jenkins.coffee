@@ -30,7 +30,7 @@ jenkinsBuild = (msg) ->
         if err
           msg.send "Jenkins says: #{err}"
         else if res.statusCode == 302
-          new_str = res.headers.location.sub(/com/, 'com:8080')
+          new_str = res.headers.location.to_s.sub(/com/, 'com:8080')
           msg.send "Build started for #{job} #{new_str}"
         else
           msg.send "Jenkins says: #{body}"
